@@ -92,7 +92,7 @@ form.addEventListener('submit', (e) => {
   submitBtn.disabled = true;
   setTimeout(() => {
     formSuccess.classList.add('show');
-    submitBtn.textContent = 'Zpráva odeslána ✓';
+    submitBtn.textContent = 'Zpráva odeslána';
     submitBtn.style.background = 'linear-gradient(135deg, #22c55e, #16a34a)';
   }, 1200);
 });
