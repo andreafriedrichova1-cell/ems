@@ -385,7 +385,7 @@ em {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('ems_hero.png');
+  background-image: url('ems_hero_bg.png');
   background-size: cover;
   background-position: center;
   transform: scale(1.05);
