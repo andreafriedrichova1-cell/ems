@@ -387,7 +387,8 @@ em {
   inset: 0;
   background-image: url('ems_hero_bg.png');
   background-size: cover;
-  background-position: center;
+  background-position: left center;
+  transform-origin: left center;
   transform: scale(1.05);
   animation: heroZoom 14s ease-in-out infinite alternate;
 }
