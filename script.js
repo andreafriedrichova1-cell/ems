@@ -47,7 +47,7 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, observerOptions);
 
-document.querySelectorAll('[data-aos], .service-card, .testi-card, .result-card, .about-grid, .contact-wrap').forEach(el => {
+document.querySelectorAll('[data-aos], .service-card, .testi-card, .result-card, .about-grid, .contact-wrap, .step-card').forEach(el => {
   el.classList.add('animate-on-scroll');
   observer.observe(el);
 });

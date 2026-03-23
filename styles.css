@@ -205,12 +205,14 @@ em {
   transition-delay: 0.2s;
 }
 
+.service-card:nth-child(4),
 .benefit-card:nth-child(4),
 .step-card:nth-child(4) {
   transition-delay: 0.3s;
 }
 
-.benefit-card:nth-child(5) {
+.benefit-card:nth-child(5),
+.step-card:nth-child(5) {
   transition-delay: 0.4s;
 }
 
@@ -890,8 +892,21 @@ em {
   color: var(--text-muted);
 }
 
+#training-process {
+  padding: 7rem 0;
+  background: var(--white);
+}
+
+.training-steps {
+  margin-top: 2rem;
+}
+
+.training-steps .step-card {
+  max-width: 220px;
+}
+
 /* ===========================
-   HOW IT WORKS
+   SERVICES
 =========================== */
 #how {
   padding: 7rem 0;
