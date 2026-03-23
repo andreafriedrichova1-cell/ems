@@ -902,7 +902,7 @@ em {
 }
 
 .training-steps .step-card {
-  max-width: 260px;
+  max-width: 280px;
 }
 
 /* ===========================
@@ -940,7 +940,7 @@ em {
 
 .step-card h3 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.45rem;
+  font-size: 1.6rem;
   font-weight: 600;
   color: var(--text-dark);
   margin-bottom: 0.6rem;
@@ -948,7 +948,7 @@ em {
 
 .step-card p {
   font-family: 'Outfit', sans-serif;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   color: var(--text-muted);
   line-height: 1.6;
 }
