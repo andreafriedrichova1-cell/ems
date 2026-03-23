@@ -97,8 +97,8 @@ em {
 
 .section-sub {
   color: var(--text-muted);
-  font-size: 1rem;
-  max-width: 520px;
+  font-size: 1.15rem;
+  max-width: 600px;
   margin: 0 auto;
   font-family: 'Outfit', sans-serif;
 }
@@ -893,16 +893,16 @@ em {
 }
 
 #training-process {
-  padding: 7rem 0;
+  padding: 6rem 0;
   background: var(--white);
 }
 
-.training-steps {
-  margin-top: 2rem;
+#training-process .section-header {
+  margin-bottom: 2rem;
 }
 
-.training-steps .step-card {
-  max-width: 280px;
+.training-steps {
+  margin-top: 1rem;
 }
 
 /* ===========================
@@ -933,9 +933,9 @@ em {
   font-family: 'Cormorant Garamond', serif;
   font-size: 3.5rem;
   font-weight: 300;
-  color: var(--cream-4);
+  color: var(--accent-gold);
   line-height: 1;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .step-card h3 {
