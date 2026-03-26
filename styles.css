@@ -391,7 +391,7 @@ em {
   inset: 0;
   background-image: url('ems_hero.png');
   background-size: cover;
-  background-position: center;
+  background-position: center 20%;
   background-color: #C4AE93;
 }
 
