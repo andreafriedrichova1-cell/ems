@@ -598,6 +598,14 @@ em {
   position: relative;
 }
 
+.about-grid--reverse .about-text {
+  order: 2;
+}
+
+.about-grid--reverse .about-img-wrap {
+  order: 1;
+}
+
 .about-img-card {
   position: relative;
   border-radius: var(--radius-lg);
@@ -679,7 +687,7 @@ em {
 
 .benefits-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
 }
 
@@ -716,6 +724,58 @@ em {
   color: var(--text-muted);
   font-size: 0.93rem;
   line-height: 1.75;
+}
+
+/* ===========================
+   WHO IS IT FOR
+ =========================== */
+#who-is-it-for {
+  padding: 7rem 0;
+  background: var(--white);
+}
+
+.who-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.who-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding: 1.5rem;
+  background: var(--cream);
+  border-radius: var(--radius);
+  border: 1px solid var(--cream-3);
+  transition: var(--transition);
+}
+
+.who-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--gold);
+  background: var(--white);
+  box-shadow: 0 10px 30px rgba(168, 137, 90, 0.1);
+}
+
+.who-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.who-text h3 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: var(--text-dark);
+}
+
+.who-text p {
+  font-family: 'Outfit', sans-serif;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 
 /* ===========================
@@ -1172,6 +1232,18 @@ footer p {
 
   .benefits-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .who-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-grid--reverse .about-text {
+    order: 1;
+  }
+
+  .about-grid--reverse .about-img-wrap {
+    order: 2;
   }
 
   .testimonials-grid {
