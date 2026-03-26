@@ -656,6 +656,10 @@ em {
   line-height: 1.8;
 }
 
+.about-desc--lg {
+  font-size: 1.15rem;
+}
+
 .about-subheading {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.4rem;
@@ -695,43 +699,41 @@ em {
 
 .benefits-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
 
 .benefit-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1.5rem;
   background: var(--white);
+  border-radius: var(--radius);
   border: 1px solid var(--cream-3);
-  border-radius: var(--radius-lg);
-  padding: 2rem 1.75rem;
   transition: var(--transition);
 }
 
 .benefit-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 16px 45px rgba(92, 61, 30, 0.1);
-  border-color: rgba(168, 137, 90, 0.4);
-}
-
-.benefit-icon {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  display: block;
+  transform: translateY(-3px);
+  border-color: var(--gold);
+  background: var(--white);
+  box-shadow: 0 10px 30px rgba(168, 137, 90, 0.1);
 }
 
 .benefit-card h3 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.3rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.1rem;
   font-weight: 600;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.4rem;
   color: var(--text-dark);
 }
 
 .benefit-card p {
   font-family: 'Outfit', sans-serif;
   color: var(--text-muted);
-  font-size: 0.93rem;
-  line-height: 1.75;
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 
 /* ===========================
