@@ -656,6 +656,14 @@ em {
   line-height: 1.8;
 }
 
+.about-subheading {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin: 1.5rem 0 0.5rem;
+}
+
 .about-certs {
   display: grid;
   grid-template-columns: 1fr 1fr;
