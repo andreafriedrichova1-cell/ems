@@ -389,6 +389,9 @@ em {
 .hero-bg {
   position: absolute;
   inset: 0;
+  background-image: url('ems_hero_wireless_bg.png');
+  background-size: cover;
+  background-position: center;
   background-color: #F4EFE6;
 }
 
