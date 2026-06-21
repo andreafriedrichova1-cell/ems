@@ -368,61 +368,66 @@
 
     <!-- CONTACT -->
     <section id="contact">
-        <div class="container">
-            <div class="contact-wrap">
-                <div class="contact-info">
-                    <p class="section-tag">Ozvěte se nám</p>
-                    <h2 class="section-title">Rezervujte si<br /><em>lekci</em></h2>
-                    <p class="contact-desc">Udělejte první krok. Vyplňte formulář a do 24 hodin se vám ozveme, abychom
-                        potvrdili vaši bezplatnou zkušební lekci.</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <span class="contact-icon"></span>
-                            <span>Praha, Česká republika</span>
-                        </div>
-                        <div class="contact-item">
-                            <span class="contact-icon"></span>
-                            <span>emspulseinfo@gmail.com</span>
-                        </div>
-                        <div class="contact-item">
-                            <span class="contact-icon"></span>
-                            <span>+420 777 000 000</span>
-                        </div>
+        <div class="contact-split">
+
+            <!-- LEFT dark panel -->
+            <div class="contact-left">
+                <p class="contact-tag">Rezervace</p>
+                <h2 class="contact-heading">Udělejte první krok.<br><em>20 minut</em> může<br>změnit víc,<br>než čekáte.</h2>
+                <p class="contact-sub">Během úvodní konzultace zhodnotíme váš cíl, zdravotní stav i vhodnost EMS tréninku. Nastavíme program přímo na míru &mdash; bez závazku a bez zbytečného čekání.</p>
+                <ul class="contact-perks">
+                    <li>Nezávazně</li>
+                    <li>Trenér přítomen po celou dobu</li>
+                    <li>Bez předchozích zkušeností</li>
+                </ul>
+                <div class="contact-meta">
+                    <div class="contact-meta-row">
+                        <span class="contact-meta-label">Telefon</span>
+                        <a href="tel:+420606239170" class="contact-meta-val">+420 606 239 170</a>
+                    </div>
+                    <div class="contact-meta-row">
+                        <span class="contact-meta-label">E-mail</span>
+                        <a href="mailto:emspulseinfo@gmail.com" class="contact-meta-val">emspulseinfo@gmail.com</a>
+                    </div>
+                    <div class="contact-meta-row">
+                        <span class="contact-meta-label">Adresa</span>
+                        <span class="contact-meta-val">Praha a Praha&nbsp;východ</span>
                     </div>
                 </div>
-                <form class="contact-form" id="contactForm">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="name">Vaše jméno</label>
-                            <input type="text" id="name" placeholder="Jana Nováková" required />
-                        </div>
-                        <div class="form-group">
-                            <label for="email">E-mailová adresa</label>
-                            <input type="email" id="email" placeholder="jana@email.com" required />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="program">Mám zájem o</label>
-                        <select id="program">
-                            <option value="">Vyberte balíček...</option>
-                            <option>1 lekce (1 100 Kč)</option>
-                            <option>Balíček 5 lekcí (4 990 Kč)</option>
-                            <option>Balíček 10 lekcí (9 550 Kč)</option>
-                            <option>Balíček 20 lekcí (18 990 Kč)</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="goal">Poznámka</label>
-                        <textarea id="goal" rows="4"
-                            placeholder="Napište nám o svých fitness cílech nebo případných speciálních požadavcích..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Rezervovat lekci
-                        zdarma</button>
-                    <div class="form-success" id="formSuccess">
-                        Žádost byla přijata! Do 24 hodin vám potvrdíme termín lekce.
-                    </div>
-                </form>
             </div>
+
+            <!-- RIGHT form card -->
+            <div class="contact-right">
+                <div class="contact-form-wrap">
+                    <h3 class="contact-form-title">Rezervovat první trénink</h3>
+                    <p class="contact-form-sub">Odpovíme do 24 hodin.</p>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Jméno a příjmení <span class="req">*</span></label>
+                                <input type="text" id="name" placeholder="Jana Nováková" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail <span class="req">*</span></label>
+                                <input type="email" id="email" placeholder="jana@email.com" required />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon <span class="opt">(nepovinné)</span></label>
+                            <input type="tel" id="phone" placeholder="+420 000 000 000" />
+                        </div>
+                        <div class="form-group">
+                            <label for="goal">Zpráva <span class="req">*</span></label>
+                            <textarea id="goal" rows="4" placeholder="Jaký je váš cíl? Máte nějaká zdravotní omezení?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Odeslat poptávku</button>
+                        <div class="form-success" id="formSuccess">
+                            Žádost byla přijata! Do 24 hodin vám potvrdíme termín lekce.
+                        </div>
+                    </form>
+                </div>
+            </div>
+
         </div>
     </section>
 
